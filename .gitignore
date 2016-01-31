@@ -1,8 +1,1 @@
 *.pyc
-
-/mpd/
-/mpd.conf
-/wymypy.egg-info/
-/dist/
-/build/
-/wymypy_ng.egg-info/
