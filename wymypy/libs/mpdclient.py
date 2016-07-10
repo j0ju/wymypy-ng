@@ -1000,7 +1000,7 @@ class MpdController(MpdConnection):
 
         try:
             for name in names:
-                if not isinstance(name, str):
+                if not isinstance(name, ( str, unicode )):
                     raise ValueError("all names must be strings")
 
             map(self.sendLoadCommand, names)
